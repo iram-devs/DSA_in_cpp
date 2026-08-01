@@ -1,9 +1,9 @@
 # DSA_in_cpp
 solutions to leetcode problems
 # TOPICS
-*Array
-   *Easy level
-   *Medium level
-*Linked List
-    *Easy Level
-    *Medium level
+*Array \n
+   *Easy level \n
+   *Medium level \n
+*Linked List \n
+    *Easy Level \n
+    *Medium level \n
