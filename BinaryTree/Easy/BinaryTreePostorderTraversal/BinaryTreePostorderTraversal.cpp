@@ -36,10 +36,10 @@ int main()
     root->right->left = new TreeNode(5);
 
     Solution obj;
-    vector <int> ans = obj.postorderTraversal(root);
+    vector<int> ans = obj.postorderTraversal(root);
     for(int x : ans)
     {
-        cout << x <<" ";
+        cout<<x<<" ";
     }
     return 0;
 }
