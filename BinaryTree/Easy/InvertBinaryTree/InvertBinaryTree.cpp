@@ -50,8 +50,14 @@ int main()
     root->right->left= new TreeNode(6);
     root->right->right = new TreeNode(7);
 
+    cout<<"before inverting....."<<endl;
+    printLevelOrder(root);
+    cout<<endl;
+
     Solution obj;
     TreeNode* ans = obj.invertTree(root);
+   
+    cout<<"after inverting....."<<endl;
     printLevelOrder(ans);
     return 0;
 }
