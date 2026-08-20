@@ -33,7 +33,7 @@ public:
 int main()
 {
     vector<int>nums1 = {1,2,3,3,4,5,6,9,9};
-    vector<int>nums2 = {3,3,5,4,9};
+    vector<int>nums2 = {3,3,5,4,7,11,9};
     Solution obj;
     vector <int> ans = obj.intersection(nums1 , nums2);
     for(int x :ans)
