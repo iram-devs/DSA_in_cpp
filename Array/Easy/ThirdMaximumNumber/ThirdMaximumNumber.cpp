@@ -14,7 +14,7 @@ public:
 };
 int main()
 {
-    vector<int> nums = {2,2,3,1,4,4,5};
+    vector<int> nums = {2,2,3,1,4,4,5,9};
     Solution obj;
     int ans = obj.thirdMax(nums);
     cout<<ans<<endl;
