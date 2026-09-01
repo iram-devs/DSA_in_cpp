@@ -25,11 +25,7 @@ int main()
 
     Solution obj;
     string ans = obj.reverseStr(s,k);
-    for(char x: ans)
-
-    {
-        cout<<x;
-    }
+    cout<<ans;
     return 0;
 
 }
