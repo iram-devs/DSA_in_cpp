@@ -20,6 +20,6 @@ int main()
 
     Solution obj;
     string ans = obj.toLowerCase(str);
-    cout<<ans<<endl;
+    cout<<ans;
     return 0;
 }
