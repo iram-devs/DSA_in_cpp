@@ -1,0 +1,12 @@
+A password contains n positions . For every positions you can place ABC .
+But the password follows these rules:-
+(i) Two B's cannot be Adjacent.
+(ii) B cant come just after ABC
+(iii) CCC can't be the password
+
+To find:
+No. of valid passwords of size n.
+
+Example:
+if n=3 , ans = 16
+if n=2 , ans = 7
