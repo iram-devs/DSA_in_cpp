@@ -1,0 +1,19 @@
+Given a Family of Engineers and Doctors.
+
+Conditions :
+(i) First child of an Engineer must be Engineer and second child will be Doctor.
+(ii) FIrst child of Doctor must be Doctor and second child will be Engineer.
+(iii) Family always starts with Engineer.
+
+This scenario can be represented in the form of tree:
+
+                         E
+                        / \
+                       E   D
+                     / \   / \
+                    E  D  D   E
+                   / \ /\ / \ / \
+                  E  D D E D E E D
+
+Given : an integer 'level' and an integer 'position'.
+To Find: The Profession at given level & position . Return in the form of string such as "Engineer" or "Doctor".
