@@ -1,7 +1,7 @@
 A password contains n positions . For every positions you can place ABC .
 But the password follows these rules:-
-(i) Two B's cannot be Adjacent.
-(ii) B cant come just after ABC
+(i) Two B's cannot be ajacent.
+(ii)'B'can not come just after 'A' .
 (iii) CCC can't be the password
 
 To find:
