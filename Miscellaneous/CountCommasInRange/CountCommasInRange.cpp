@@ -10,10 +10,10 @@ class Solution{
 int main()
 {
     int n ;
-    cout<<"Enter no.:";
+    cout<<"Enter number:";
     cin>>n;
 
     Solution obj;
-    cout<<"Ans:"<<obj.countCommas(n);
+    cout<<"Ans: "<<obj.countCommas(n);
     return 0;
 }
