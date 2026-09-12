@@ -51,3 +51,11 @@ int main()
     cout<<"Floor value: "<<ans<<endl;
     return 0;
 }
+/*         35
+           / \
+        23     45
+       / \     / 
+     12  28   40
+         /     / \
+        25    39 42
+*/
