@@ -1,5 +1,4 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 struct TreeNode
 {
@@ -12,22 +11,21 @@ struct TreeNode
 };
 class Solution{
     public:
-    TreeNode* inoderSuccessor(TreeNode* root , TreeNode* p)
+    TreeNode* inorderPredecessor(TreeNode* root , TreeNode*p)
     {
-        TreeNode* successor = NULL;
+        TreeNode* predecessor = NULL;
         while(root!=NULL)
         {
-            if(p->val>=root->val)
+            if(p->val<=root->val)
             {
-                root=root->right;
-            }
-            else
-            {
-                successor=root;
                 root=root->left;
             }
+            else{
+                predecessor = root;
+                root=root->right;
+            }
         }
-        return successor;
+        return predecessor;
     }
 };
 int main()
@@ -41,8 +39,7 @@ int main()
     root->right->right = new TreeNode(9);
 
     Solution obj;
-    TreeNode* ans = obj.inoderSuccessor(root , root->left->right);
-    cout<<ans->val<<endl;
+    TreeNode* ans = obj.inorderPredecessor(root , root->right->right);
+    cout<<ans->val;
     return 0;
-
 }
