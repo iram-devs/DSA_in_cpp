@@ -35,6 +35,6 @@ int main()
     cout<<"Enter string: ";
     cin>>s;
     Solution obj;
-    cout<<"Length of longest valid parenthesis: "<<obj.longestValidParentheses(s);
+    cout<<"Length of longest valid parentheses: "<<obj.longestValidParentheses(s);
     return 0;
 }
