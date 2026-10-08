@@ -1,21 +1,22 @@
 #include<iostream>
 #include<vector>
+#include<climits>
 using namespace std;
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        int mx = nums[0] , mn = nums[0],ans = nums[0];
-        for(int i =1;i<nums.size();i++)
-        {
-            if(nums[i]<0)
-            {
-                swap(mx,mn);
-            }
-            mx = max(nums[i], mx*nums[i]);
-            mn = min(nums[i], mn*nums[i]);
-            ans = max(ans , mx);
-        }
-        return ans;
+       int maxi=INT_MIN;
+       int prefix=1;
+       int suffix =1;
+       for(int i=0;i<nums.size();i++)
+       {
+         prefix*=nums[i];
+         suffix*=nums[nums.size()-i-1];
+         if(prefix==0) prefix=1;
+         if(suffix==0) suffix=1;
+         maxi = max(maxi,max(suffix,prefix));
+       }
+        return maxi;
     }
 };
 int main()
