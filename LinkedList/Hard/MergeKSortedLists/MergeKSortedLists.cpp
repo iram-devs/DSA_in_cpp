@@ -68,7 +68,7 @@ int main()
     vector<int> v1 = {1,4,6};
     vector<int> v2 = {2,4,5,7};
     vector<int> v3 = {3,6,8};
-    vector<int> v4 = {8,9};
+    vector<int> v4 = {7,8,9};
     ListNode* list1 = createlist(v1);
     ListNode* list2 = createlist(v2);
     ListNode* list3 = createlist(v3);
