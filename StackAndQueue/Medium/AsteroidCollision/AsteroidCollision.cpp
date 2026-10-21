@@ -38,9 +38,9 @@ int main()
         asteroids.push_back(x);
     }
     Solution obj;
-    vector<int>ans = obj.asteroidCollision(asteroids);
+    vector<int>res = obj.asteroidCollision(asteroids);
     cout<<"asteroids after collision:"<<endl;
-    for(int x:ans)
+    for(int x:res)
     {
         cout<<x<<" ";
     }
