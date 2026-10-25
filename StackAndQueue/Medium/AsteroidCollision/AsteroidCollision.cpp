@@ -30,7 +30,7 @@ int main()
     int n;
     cout<<"enter no. of asteroids: ";
     cin>>n;
-    cout<<"enter asteroids:"<<endl;
+    cout<<"enter asteroids in order:"<<endl;
     for(int i= 0 ;i<n ;i++)
     {
         int x;
