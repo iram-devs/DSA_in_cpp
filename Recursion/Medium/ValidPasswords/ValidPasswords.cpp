@@ -27,7 +27,7 @@ class Solution{
 };
 int main()
 {
-    vector<char> arr = {'A','B','C'};
+    vector<char> arr = {'D','E','F'};
     string res = "";
     char prev = '#';
     int n ;
