@@ -31,7 +31,7 @@ class Solution{
 };
 int main()
 {
-    vector<int>nums = {1,2,3,1,2,4,1,3,2,4,1,3};
+    vector<int>nums = {1,2,3,1,2,4,1,2,4,1,3};
     Solution obj;
     vector<int> ans = obj.sortArray(nums);
     cout<<"Sorted array: "<<endl;
