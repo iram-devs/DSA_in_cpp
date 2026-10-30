@@ -1,0 +1,15 @@
+#include<iostream>
+#include<string>
+#include<vector>
+using namespace std;
+class Solution {
+public:
+    string restoreString(string s, vector<int>& indices) {
+        string ans(s.size(),' ');
+        for(int i=0;i<s.size();i++)
+        {
+            ans[indices[i]]=s[i];
+        }
+        return ans;
+    }
+};
